@@ -7,7 +7,7 @@ public class Solucao1f {
         String centena = JOptionPane.showInputDialog("Digite o número da casa da centena:");
         String dezena = JOptionPane.showInputDialog("Digite o número da casa da dezena:");
         String unidade = JOptionPane.showInputDialog("Digite o número da casa da unidade:");
-
+        //concatenando
         String numeroCompleto = milhar + centena + dezena + unidade;
         //Saida na Tela
         JOptionPane.showMessageDialog(null, "O número formado é: " + numeroCompleto);
