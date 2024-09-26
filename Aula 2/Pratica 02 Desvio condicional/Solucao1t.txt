@@ -1,0 +1,12 @@
+public class Solucao1t {
+    public static void main(String[] args) {
+        int num1 = 9;
+        int num2 = 16;
+
+        int menor = Math.min(num1, num2);
+        int maior = Math.max(num1, num2);
+
+        System.out.println("Quadrado do menor: " + (menor * menor));
+        System.out.println("Raiz quadrada do maior: " + Math.sqrt(maior));
+    }
+}
